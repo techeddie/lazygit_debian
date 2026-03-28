@@ -31,28 +31,28 @@ gui:
   #       - "#fb4934"
   #     defaultFgColor:
   #       - "#ebdbb2"
-  theme:
-    activeBorderColor:
-      - red
-      - bold
-    inactiveBorderColor:
-      - green
-    optionsTextColor:
-      - blue
-    selectedLineBgColor:
-      - blue # set to `default` to have no background colour
-    selectedRangeBgColor:
-      - blue
-    cherryPickedCommitBgColor:
-      - cyan
-    cherryPickedCommitFgColor:
-      - blue
-    unstagedChangesColor:
-      - red
-    defaultFgColor:
-      - default
-  commitLength:
-    show: true
+  # theme:
+  #   activeBorderColor:
+  #     - red
+  #     - bold
+  #   inactiveBorderColor:
+  #     - green
+  #   optionsTextColor:
+  #     - blue
+  #   selectedLineBgColor:
+  #     - blue # set to `default` to have no background colour
+  #   selectedRangeBgColor:
+  #     - blue
+  #   cherryPickedCommitBgColor:
+  #     - cyan
+  #   cherryPickedCommitFgColor:
+  #     - blue
+  #   unstagedChangesColor:
+  #     - red
+  #   defaultFgColor:
+  #     - default
+  # commitLength:
+  #   show: true
 
   mouseEvents: true
   skipDiscardChangeWarning: false
