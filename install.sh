@@ -1,12 +1,3 @@
-# CLONE REPOS
-
-```bash
-git clone https://github.com/techeddie/lazygit_debian.git ~/.config/lazygit
-```
-
-# DEBIAN INSTALLER
-
-```bash
 #!/bin/bash
 set -e
 
@@ -36,4 +27,3 @@ sudo mv /tmp/lazygit /usr/local/bin/lazygit
 rm "/tmp/${FILE}"
 
 echo ">> Fertig: $(lazygit --version)"
-```
